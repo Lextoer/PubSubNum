@@ -1,0 +1,24 @@
+[0.630s] Invoking command in '/home/yahya/ros2_ws/src/my_pub_sub': PYTHONPATH=/home/yahya/ros2_ws/build/my_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pub_sub build --build-base /home/yahya/ros2_ws/build/my_pub_sub/build install --record /home/yahya/ros2_ws/build/my_pub_sub/install.log --install-scripts $base/lib/my_pub_sub --single-version-externally-managed install_data
+[0.834s] /home/yahya/.local/lib/python3.8/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.834s]   warnings.warn(
+[0.860s] running egg_info
+[0.861s] writing ../../build/my_pub_sub/my_pub_sub.egg-info/PKG-INFO
+[0.861s] writing dependency_links to ../../build/my_pub_sub/my_pub_sub.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/my_pub_sub/my_pub_sub.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/my_pub_sub/my_pub_sub.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/my_pub_sub/my_pub_sub.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'
+[0.865s] writing manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] running install
+[0.866s] running install_lib
+[0.867s] running install_data
+[0.867s] running install_egg_info
+[0.869s] removing '/home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub-0.0.0-py3.8.egg-info' (and everything under it)
+[0.869s] Copying ../../build/my_pub_sub/my_pub_sub.egg-info to /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub-0.0.0-py3.8.egg-info
+[0.870s] running install_scripts
+[0.886s] Installing publisher_node script to /home/yahya/ros2_ws/install/my_pub_sub/lib/my_pub_sub
+[0.886s] Installing subscriber_node script to /home/yahya/ros2_ws/install/my_pub_sub/lib/my_pub_sub
+[0.886s] writing list of installed files to '/home/yahya/ros2_ws/build/my_pub_sub/install.log'
+[0.900s] Invoked command in '/home/yahya/ros2_ws/src/my_pub_sub' returned '0': PYTHONPATH=/home/yahya/ros2_ws/build/my_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_pub_sub build --build-base /home/yahya/ros2_ws/build/my_pub_sub/build install --record /home/yahya/ros2_ws/build/my_pub_sub/install.log --install-scripts $base/lib/my_pub_sub --single-version-externally-managed install_data

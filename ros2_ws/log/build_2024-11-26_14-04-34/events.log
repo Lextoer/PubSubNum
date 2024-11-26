@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (my_pub_sub) JobQueued: {'identifier': 'my_pub_sub', 'dependencies': OrderedDict()}
+[0.000833] (my_pub_sub) JobStarted: {'identifier': 'my_pub_sub'}
+[0.099899] (-) TimerEvent: {}
+[0.200248] (-) TimerEvent: {}
+[0.300540] (-) TimerEvent: {}
+[0.400837] (-) TimerEvent: {}
+[0.501087] (-) TimerEvent: {}
+[0.601325] (-) TimerEvent: {}
+[0.701858] (-) TimerEvent: {}
+[0.703091] (my_pub_sub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_pub_sub', 'build', '--build-base', '/home/yahya/ros2_ws/build/my_pub_sub/build', 'install', '--record', '/home/yahya/ros2_ws/build/my_pub_sub/install.log', '--install-scripts', '$base/lib/my_pub_sub', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/yahya/ros2_ws/src/my_pub_sub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yahya', 'LC_TIME': 'tr_TR.UTF-8', 'SSH_AGENT_PID': '1491', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/yahya', 'OLDPWD': '/home/yahya', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'tr_TR.UTF-8', 'MANAGERPID': '1373', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yahya/ros2_ws/install:/home/yahya/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'yahya', 'JOURNAL_STREAM': '8:49194', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yahya', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/yahya/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/yahya-HP-Pavilion-Gaming-Laptop-15-dk1xxx:@/tmp/.ICE-unix/1529,unix/yahya-HP-Pavilion-Gaming-Laptop-15-dk1xxx:/tmp/.ICE-unix/1529', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/yahya/ros2_fastdds.xml', 'INVOCATION_ID': 'b298c3c751ec429797dce88f02df60ba', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'tr_TR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/07995e25_2d92_4e9c_b112_c9cf05b4045b', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'tr_TR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.222', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yahya/ros2_ws/install/my_pub_sub:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'tr_TR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'tr_TR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'tr_TR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yahya/ros2_ws/build/my_pub_sub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yahya/ros2_ws/build/my_pub_sub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages:/home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'tr_TR.UTF-8', 'LC_PAPER': 'tr_TR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.801953] (-) TimerEvent: {}
+[0.837162] (my_pub_sub) StderrLine: {'line': b'/home/yahya/.local/lib/python3.8/site-packages/setuptools/dist.py:495: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.837362] (my_pub_sub) StderrLine: {'line': b'!!\n'}
+[0.837437] (my_pub_sub) StderrLine: {'line': b'\n'}
+[0.837505] (my_pub_sub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.837570] (my_pub_sub) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.837634] (my_pub_sub) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.837726] (my_pub_sub) StderrLine: {'line': b'\n'}
+[0.837823] (my_pub_sub) StderrLine: {'line': b'        By 2025-Mar-03, you need to update your project and remove deprecated calls\n'}
+[0.837882] (my_pub_sub) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.837940] (my_pub_sub) StderrLine: {'line': b'\n'}
+[0.837999] (my_pub_sub) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.838059] (my_pub_sub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.838119] (my_pub_sub) StderrLine: {'line': b'\n'}
+[0.838178] (my_pub_sub) StderrLine: {'line': b'!!\n'}
+[0.838236] (my_pub_sub) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[0.902022] (-) TimerEvent: {}
+[0.946496] (my_pub_sub) StdoutLine: {'line': b'running egg_info\n'}
+[0.961516] (my_pub_sub) StdoutLine: {'line': b'writing ../../build/my_pub_sub/my_pub_sub.egg-info/PKG-INFO\n'}
+[0.962393] (my_pub_sub) StdoutLine: {'line': b'writing dependency_links to ../../build/my_pub_sub/my_pub_sub.egg-info/dependency_links.txt\n'}
+[0.962633] (my_pub_sub) StdoutLine: {'line': b'writing entry points to ../../build/my_pub_sub/my_pub_sub.egg-info/entry_points.txt\n'}
+[0.963059] (my_pub_sub) StdoutLine: {'line': b'writing requirements to ../../build/my_pub_sub/my_pub_sub.egg-info/requires.txt\n'}
+[0.963344] (my_pub_sub) StdoutLine: {'line': b'writing top-level names to ../../build/my_pub_sub/my_pub_sub.egg-info/top_level.txt\n'}
+[1.002128] (-) TimerEvent: {}
+[1.077901] (my_pub_sub) StdoutLine: {'line': b"reading manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'\n"}
+[1.078487] (my_pub_sub) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.078635] (my_pub_sub) StderrLine: {'line': b'  File "setup.py", line 3, in <module>\n'}
+[1.078796] (my_pub_sub) StderrLine: {'line': b'    setup(\n'}
+[1.078930] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/__init__.py", line 117, in setup\n'}
+[1.079005] (my_pub_sub) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.079066] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 183, in setup\n'}
+[1.079230] (my_pub_sub) StderrLine: {'line': b'    return run_commands(dist)\n'}
+[1.079321] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_distutils/core.py", line 199, in run_commands\n'}
+[1.079408] (my_pub_sub) StderrLine: {'line': b'    dist.run_commands()\n'}
+[1.079488] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 954, in run_commands\n'}
+[1.079614] (my_pub_sub) StderrLine: {'line': b'    self.run_command(cmd)\n'}
+[1.079779] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/dist.py", line 999, in run_command\n'}
+[1.079921] (my_pub_sub) StderrLine: {'line': b'    super().run_command(command)\n'}
+[1.080045] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_distutils/dist.py", line 973, in run_command\n'}
+[1.080130] (my_pub_sub) StderrLine: {'line': b'    cmd_obj.run()\n'}
+[1.080290] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 312, in run\n'}
+[1.080393] (my_pub_sub) StderrLine: {'line': b'    self.find_sources()\n'}
+[1.080537] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 320, in find_sources\n'}
+[1.080614] (my_pub_sub) StderrLine: {'line': b'    mm.run()\n'}
+[1.080673] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/command/egg_info.py", line 546, in run\n'}
+[1.080732] (my_pub_sub) StderrLine: {'line': b'    self.prune_file_list()\n'}
+[1.080791] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/command/sdist.py", line 162, in prune_file_list\n'}
+[1.080850] (my_pub_sub) StderrLine: {'line': b'    super().prune_file_list()\n'}
+[1.080913] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_distutils/command/sdist.py", line 380, in prune_file_list\n'}
+[1.080973] (my_pub_sub) StderrLine: {'line': b'    base_dir = self.distribution.get_fullname()\n'}
+[1.081031] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 267, in get_fullname\n'}
+[1.081110] (my_pub_sub) StderrLine: {'line': b'    return _distribution_fullname(self.get_name(), self.get_version())\n'}
+[1.081184] (my_pub_sub) StderrLine: {'line': b'  File "/home/yahya/.local/lib/python3.8/site-packages/setuptools/_core_metadata.py", line 285, in _distribution_fullname\n'}
+[1.081248] (my_pub_sub) StderrLine: {'line': b'    canonicalize_version(version, strip_trailing_zero=False),\n'}
+[1.081306] (my_pub_sub) StderrLine: {'line': b"TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'\n"}
+[1.099821] (my_pub_sub) CommandEnded: {'returncode': 1}
+[1.100203] (my_pub_sub) JobEnded: {'identifier': 'my_pub_sub', 'rc': 1}
+[1.101186] (-) EventReactorShutdown: {}

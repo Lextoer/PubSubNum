@@ -1,0 +1,7 @@
+running egg_info
+writing ../../build/my_pub_sub/my_pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pub_sub/my_pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pub_sub/my_pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/my_pub_sub/my_pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/my_pub_sub/my_pub_sub.egg-info/top_level.txt
+reading manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'

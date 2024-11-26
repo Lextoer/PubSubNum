@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/my_pub_sub/my_pub_sub.egg-info
+writing ../../build/my_pub_sub/my_pub_sub.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_pub_sub/my_pub_sub.egg-info/dependency_links.txt
+writing entry points to ../../build/my_pub_sub/my_pub_sub.egg-info/entry_points.txt
+writing requirements to ../../build/my_pub_sub/my_pub_sub.egg-info/requires.txt
+writing top-level names to ../../build/my_pub_sub/my_pub_sub.egg-info/top_level.txt
+writing manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_pub_sub/my_pub_sub.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yahya/ros2_ws/build/my_pub_sub/build
+creating /home/yahya/ros2_ws/build/my_pub_sub/build/lib
+creating /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub
+copying my_pub_sub/publisher_node.py -> /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub
+copying my_pub_sub/__init__.py -> /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub
+copying my_pub_sub/subscriber_node.py -> /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub
+running install
+running install_lib
+creating /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub
+copying /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub/publisher_node.py -> /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub
+copying /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub/__init__.py -> /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub
+copying /home/yahya/ros2_ws/build/my_pub_sub/build/lib/my_pub_sub/subscriber_node.py -> /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub
+byte-compiling /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub/publisher_node.py to publisher_node.cpython-38.pyc
+byte-compiling /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub/subscriber_node.py to subscriber_node.cpython-38.pyc
+running install_data
+creating /home/yahya/ros2_ws/install/my_pub_sub/share/ament_index
+creating /home/yahya/ros2_ws/install/my_pub_sub/share/ament_index/resource_index
+creating /home/yahya/ros2_ws/install/my_pub_sub/share/ament_index/resource_index/packages
+copying resource/my_pub_sub -> /home/yahya/ros2_ws/install/my_pub_sub/share/ament_index/resource_index/packages
+copying package.xml -> /home/yahya/ros2_ws/install/my_pub_sub/share/my_pub_sub
+running install_egg_info
+Copying ../../build/my_pub_sub/my_pub_sub.egg-info to /home/yahya/ros2_ws/install/my_pub_sub/lib/python3.8/site-packages/my_pub_sub-0.0.0-py3.8.egg-info
+running install_scripts
+Installing publisher_node script to /home/yahya/ros2_ws/install/my_pub_sub/lib/my_pub_sub
+Installing subscriber_node script to /home/yahya/ros2_ws/install/my_pub_sub/lib/my_pub_sub
+writing list of installed files to '/home/yahya/ros2_ws/build/my_pub_sub/install.log'
