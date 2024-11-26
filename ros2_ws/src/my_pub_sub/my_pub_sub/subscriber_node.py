@@ -1,28 +1,27 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import String
+from std_msgs.msg import Int32MultiArray
 
 
 class NumberSubscriber(Node):
     def __init__(self):
         super().__init__('number_subscriber')
+        # Int32MultiArray türünde bir subscription oluştur
         self.subscription = self.create_subscription(
-            String,
+            Int32MultiArray,
             'raw_array_topic',
             self.listener_callback,
             10)
         self.subscription  # Subscription referansını tut
 
     def listener_callback(self, msg):
-        # Mesajı al ve 5 sayıyı liste olarak ayır
-        raw_array_topic = list(map(int, msg.data.split(",")))
-
+        # Gelen diziyi al
+        numbers = msg.data
         # Çift sayıların sayısını hesapla
-        even_count = sum(1 for number in raw_array_topic if number % 2 == 0)
-
+        even_count = sum(1 for number in numbers if number % 2 == 0)
         # Sayıların toplamını ve ortalamasını hesapla
-        total = sum(raw_array_topic)
-        average = total / len(raw_array_topic)
+        total = sum(numbers)
+        average = total / len(numbers)
 
         # Çıktıyı yazdır
         self.get_logger().info(
@@ -44,3 +43,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
